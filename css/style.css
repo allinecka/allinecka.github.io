@@ -1,0 +1,740 @@
+body {
+    color: black;
+    font: 20px 'Open Sans', sans-serif;
+    margin: 0;
+    line-height: 1.5;
+}
+
+ul,ol {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.hlavicka {
+    background: url(../kl.jpg); 
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    height: 100%;
+    min-height: 600px;
+    position: relative;
+
+
+}
+
+.hlavicka div {
+    width: 30%;
+    height: 320px;
+    background-color:#F8F9F9dd;
+    margin: 90px 30px 80px 15%;
+    padding: 30px 60px;
+}
+
+
+h1 {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+}
+.paticka {
+
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+}
+
+.paticka p {
+    margin-bottom: 5px;
+}
+
+.menu ul {
+        background-color: white;
+        text-align: center;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+}
+.menu ul li {
+    margin: 0 50px;
+    padding: 10px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    color: #A9A9A9;
+    
+}
+nav a:active img,
+nav a:hover img,
+nav a:focus img {
+    opacity: 0.5;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+}
+
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    width: 100%;
+}
+
+
+nav ul {
+    background-color: white;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+        
+}
+
+nav a:active {
+    text-decoration: underline;
+    color: #A9A9A9;
+}
+.phone {
+    width: 10px;
+    vertical-align: middle;
+}
+.mail {
+    width: 15px;
+    vertical-align: middle;
+}
+
+.navigace {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: left;
+    list-style-type: none;
+    display: flex;
+    font-size: 12px;
+    padding: 10px 30px;
+
+    
+}
+
+.navigace li {
+    padding: 0 15px;
+    margin: 10px 0;
+    height: 100%;
+}
+.navigace li:first-of-type {
+    border-right: 1px solid black;
+}
+.navigace li:nth-child(3n) {
+    margin-left: auto;
+}
+
+.navigace li a {
+    text-align: right;
+}
+
+.navigace li a:link,
+.navigace li a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.navigace li a:focus,
+.navigace li a:active {
+    text-decoration: underline;
+}
+
+.navigace a:hover img,
+.navigace a:focus img,
+.navigace a:active img {
+    opacity: 0.5;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+
+}
+nav ul li {
+    margin: 0 50px;
+    padding: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color: #A9A9A9;
+    
+}
+
+.content {
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    
+}
+
+.domecek {
+    width: 20px;
+}
+
+.omne {
+    padding: 20px 15%;
+    background-color: #F8F9F9;
+    
+}
+
+.omne p  {
+    margin: 1em;
+}
+
+.omne .Alen {
+    margin-right: 100px;
+    text-align: right;
+    font-weight: bold;
+}
+/*.udaj1 div {
+    width: 70%;
+    background-color:#F8F9F9DD;
+    margin: 60px 130px 60px 60px;
+    padding: 30px 30px;
+    float: right;
+}*/
+
+.udaj2 {
+    font-size: 15px;
+    width: 30%;
+    background-color:#F8F9F9DD;
+    margin: 60px 130px 60px 60px;
+    margin-left: auto;
+    padding: 30px 30px;
+}
+
+.udaj2 form input[type="text"],
+.udaj2 form input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.udaj2 form input[type="submit"] {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+}
+.udaj2 form textarea {
+    width: 100%;
+}
+
+.kon {
+    text-align: center;
+}
+.ahoj {
+    text-align: right;
+    margin-right: 280px;
+    margin-top: 30px;
+}
+
+#kontakt {
+    background-image: url(../zlut.jpg);
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+}
+
+#kontakt > ul {
+    margin-right: 100px;
+    margin-left: auto;
+    list-style-type: none;
+    display: flex;
+    
+}
+
+#kontakt > ul img {
+    height: 16px;
+}
+
+#kontakt li a:link,
+#kontakt li a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#kontakt li a:focus,
+#kontakt li a:active {
+    text-decoration: underline;
+    
+}
+
+.ikony li:first-of-type {
+    border-right: 1px solid black;
+    ;
+}
+
+.ikony a:hover img,
+.ikony a:focus img,
+.ikony a:active img {
+    opacity: 0.5;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    text-decoration: underline;
+}
+#kontakt li {
+    padding: 0 15px;
+    margin: 10px 0;
+    height: 100%;
+    
+   
+}
+
+.ico {
+    border-left: 1px solid black
+}
+#mojeprace{
+    margin-top: 10px;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.fotogalerie {
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.fotky {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#butt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #F8F9F9BB;
+    color: black;
+    padding: 10px 25px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 6px;    
+     
+
+    cursor: pointer;
+    z-index: 10;
+
+}
+.fotogalerie a {
+    width: 18%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    transition: all .2s;
+}
+
+.fotogalerie a:hover {
+    transform: scale(1.02) translateY(-5px);
+}
+
+.fotogalerie img {
+    width: 100%;
+}
+
+.produkty {
+    font-family: 'Waiting for the Sunrise', cursive;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.tvorim {
+    font-family: 'Waiting for the Sunrise', cursive;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.pruhledne {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+
+}
+
+.prace {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.prace ul {
+    margin-left: 20px;
+}
+
+.instagram {
+    width: 20%;
+    margin-left: 70px;
+}
+.prace1 {
+    width: 20%;
+    margin-left: 70px;
+}
+.prace2 {
+    width: 20%;
+    margin-left: 70px;
+}
+
+.free {
+    width: 20%;
+    margin-left: 100px;
+    margin-right: 40px;
+
+}
+#udaje {
+    display: flex;
+}
+
+#udaje ul li a {
+    font-size: 20px;
+    text-align: center;
+}
+.udaj1 {
+    width: 70%;
+    display:inline-block;
+    
+}
+
+.ja {
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#omne,
+#vzdelani,
+#mojeprace,
+#pracee {
+    padding-top: 50px;
+}
+.vzdel {
+    text-align: left; 
+    margin-bottom: 10px;
+    padding-top: 20px;
+    margin-left: 40px;
+    
+}
+
+#vzdelani {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+#vzdelani ul {
+    list-style-type: none;
+    
+}
+#vzdelani ul img {
+    width: 20px;
+    margin-right: 10px;
+	filter: grayscale(1);
+
+
+}
+
+.java {
+    width: 360px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 0px;
+    display: flex;
+}
+
+.css {
+    width: 260px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    
+    
+}
+.kni {
+    width: 300px;
+    float:right;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 80px;
+    padding-right: 20px;
+    align-items: space-between;
+    
+}
+
+.gymnazium {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.knizky2 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 10px;
+}
+
+.knizky {
+    display: flex;
+    max-width: 50%;
+    max-height: 436px;
+}
+
+.virtualmaster {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: dimgray;
+
+}
+.virtualmaster2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #383E42;
+}
+
+.weleda {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: dimgray;
+
+}
+
+.weleda1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #383E42;
+}
+
+.allinecka1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: dimgray;
+}
+
+.allinecka2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #383E42;
+}
+
+.freelancer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: dimgray;
+}
+
+.freelancer1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #383E42; 
+}
+.sekcezkusenosti {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.logos li {
+   
+}
+
+.logos li img {
+    filter: grayscale(1);
+    margin-right: 50px;
+}
+
+.logos li img:hover {
+    filter:grayscale(0)
+}
+
+.logos--high li img {
+    width: 100px;
+}
+
+.logos--wide li img {
+    height: 50px;
+    margin-top: 20px;
+}
+
+.logos--mid li img {
+    height: 50px;
+    
+}
+
+.logoss{
+    background-color: white;
+}
+
+.pracicka {
+    text-align: left; 
+    padding-top: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    
+    
+}
+
+#pracee {
+    background-color: #F8F9F9;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+}
+
+#pracee p {
+    margin-bottom: 30px;
+    margin-left: 40px;
+    width: 65%;
+
+}
+
+.alla {
+    border-radius: 50%;
+    width: 60%;
+    
+}
+
+.oalle {
+   width: 20%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   float: right;
+   margin-right: 30px;
+}
+
+#mojeprace2 {
+    background-color: #eeeeee;
+    opacity: 0.5;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+
+}
+
+#mojeprace2 img {
+        width: 18%;
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 458px;
+        object-fit: cover;
+        object-position: top;
+        margin-bottom: 20px;
+}
+
+.foto img {
+    width: 23%;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 458px;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 0px 1px 5px 0px rgba(133,133,133,0.43);
+
+}
+
+.drevicko {
+    width: 200px;
+    float: left;
+}
+
+.fb,
+.insta,
+.in {
+    width: 25px;
+}
+
+.icons ul {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.icons ul li {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.icons a:hover img,
+.icons a:focus img,
+.icons a:active img {
+    opacity: 0.5;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+
+}
+
+.stoupatko {
+    width:50px;
+    height:50px;
+    background:black;
+    color:white;
+    position:fixed;
+    align-items:center;
+    font-size:25px;
+    bottom:20px;
+    right:20px;
+    border-radius:50%;
+    z-index:10;
+    cursor:pointer;
+
+}
